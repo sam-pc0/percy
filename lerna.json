@@ -1,0 +1,7 @@
+{
+  "author": "sam-pc0",
+  "packages": [
+    "packages/*"
+  ],
+  "version": "0.0.1"
+}

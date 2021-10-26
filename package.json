@@ -1,13 +1,28 @@
 {
   "name": "root",
   "private": true,
+  "author": "sam-pc0",
   "devDependencies": {
+    "autoprefixer": "^10.3.7",
     "cz-conventional-changelog": "3.3.0",
-    "lerna": "^4.0.0"
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "lerna": "^4.0.0",
+    "postcss": "^8.3.11",
+    "sass": "^1.43.3",
+    "typescript": "^4.4.4"
+  },
+  "scripts": {
+    "tsc": "tsc"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  }
+  },
+  "dependencies": {}
 }

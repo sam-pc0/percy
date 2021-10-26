@@ -1,7 +1,5 @@
 {
-  "author": "sam-pc0",
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
+  "npmClient": "yarn",
   "version": "0.0.1"
 }

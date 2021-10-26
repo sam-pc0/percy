@@ -19,6 +19,9 @@ Icon
 ### Node ###
 # Logs
 node_modules/
+css/
+dist/
+build/
 logs
 *.log
 npm-debug.log*

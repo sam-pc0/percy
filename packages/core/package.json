@@ -1,0 +1,25 @@
+{
+  "name": "core",
+  "version": "0.0.1",
+  "description": "core functionalities and styles of percy library",
+  "scripts": {
+    "build": "gulp",
+    "test": "jest"
+  },
+  "keywords": [
+    "sass",
+    "css",
+    "styles",
+    "normalizer"
+  ],
+  "author": "sam_pc <sscambara@gmail.com>",
+  "homepage": "",
+  "license": "MIT",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ]
+}

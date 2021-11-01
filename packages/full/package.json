@@ -1,0 +1,25 @@
+{
+  "name": "full",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "sam_pc <sscambara@gmail.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "lib/full.js",
+  "scripts": {
+    "build": "gulp",
+    "test": "jest"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "components": "^0.0.1",
+    "core": "^0.0.1",
+    "utilities": "^0.0.1"
+  }
+}

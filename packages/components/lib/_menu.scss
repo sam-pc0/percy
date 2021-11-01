@@ -1,0 +1,12 @@
+.menu {
+  display: flex;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 7em;
+    color: #000;
+    font-weight: 500;
+  }
+}

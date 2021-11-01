@@ -1,17 +1,17 @@
 import type { NextPage } from "next";
 
 import NavbarContent from "modules/common/layout/NavbarContent/NavbarContent";
-import Home from "modules/Home/Home";
+import Documentation from "modules/Documentation/Documentation";
 
-const HomeLayout: NextPage = () => {
-  const pageName = "Home";
+const DocumentationLayout: NextPage = () => {
+  const pageName = "Documentation";
   return (
     <div className="app">
       <NavbarContent pageName={pageName}>
-        <Home />
+        <Documentation />
       </NavbarContent>
     </div>
   );
 };
 
-export default HomeLayout;
+export default DocumentationLayout;

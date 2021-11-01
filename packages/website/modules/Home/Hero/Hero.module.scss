@@ -1,0 +1,24 @@
+.content {
+  width: auto;
+  @media screen and (min-width: 768px) {
+    transform: translateY(-150px);
+  }
+}
+.title {
+  font-size: 6em;
+  color: gray;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  @media screen and (min-width: 768px) {
+    font-size: 8em;
+  }
+}
+
+.paragraph {
+  letter-spacing: 0.3em;
+  font-size: 1em;
+  @media screen and (min-width: 768px) {
+    font-size: 1.4em;
+    letter-spacing: 0.4em;
+  }
+}

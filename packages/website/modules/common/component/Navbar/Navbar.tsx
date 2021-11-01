@@ -22,7 +22,7 @@ const Navbar: React.FC<Props> = ({ activePage }: Props) => {
             )}
           </div>
           <div className="menu__item">
-            <Link href="google.com"> Github </Link>
+            <a href="https://github.com/sam-pc0/percy" target="_blank"> Github </a>
           </div>
         </div>
       </div>

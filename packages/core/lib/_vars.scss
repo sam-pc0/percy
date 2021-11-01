@@ -1,45 +1,52 @@
 //Basic stylings
 $br: 4px !default;
+$br: 4px !default;
 $xs-pad: 4px !default;
 $sm-pad: 8px !default;
 $md-pad: 16px !default;
 $lg-pad: 20px !default;
 $xlg-pad: 40px !default;
-$trans: 0.4s !default;
+$trans: 0.3s !default;
+$base-padding: 0.75rem !default;
+$base-margin: 0.75rem !default;
 
 //Breakpoints
 $small-breakpoint: 400px !default;
 $large-breakpoint: 768px !default;
 
 //Colors
-$primary: #007bff !default;
-$accent: #64ffda !default;
+$primary: #96A0A9 !default;
+$accent: #46463A !default;
 $red: #f44336 !default;
 $yellow: #ffeb3b !default;
 $grey: #f7f7f9 !default;
 $white: #fff !default;
 $black: #000 !default;
-$background-color: #F0F8FF !default;
+$background-color: #f0f8ff !default;
 
 //Text
-$text: #47463B !default;
+$text: #47463b !default;
 $secondary: rgba($text, 0.54) !default;
 $disabled: rgba($text, 0.38) !default;
 $dividers: rgba($text, 0.12) !default;
 
-//Links
+//Colors
 $link-color: $primary !default;
 $link-hover-color: darken($link-color, 15%) !default;
 
 //Font
 $sans-serif: Helvetica, sans-serif !default;
-$serif: Georgia, Times, 'Times New Roman', serif !default;
-$monospace: Monaco, Consolas, 'Courier New', monospace !default;
+$serif: Georgia, Times, "Times New Roman", serif !default;
+$monospace: Monaco, Consolas, "Courier New", monospace !default;
 $font-family: $sans-serif !default;
 
 //Typography
 $font-size-base: 16px !default;
 $font-size-small: ceil(($font-size-base * 0.85)) !default;
+$font-size-sm: $font-size-base * 0.75 !default;
+$font-size-lg: $font-size-base * 1.5 !default;
+$font-size-xl: $font-size-base * 2 !default;
+$font-size-xxl: $font-size-base * 3 !default;
 $font-size-h1: 40px !default;
 $font-size-h2: 32px !default;
 $font-size-h3: 28px !default;
@@ -50,3 +57,7 @@ $line-height-base: 1.5 !default;
 
 //Other
 $border: 1px solid $dividers !default;
+$base-box-shadow: 1px 3px 5px rgba(0,0,0,0.1) !default;
+$base-border-thickness: 1px !default;
+$base-border-radius: 20px !default;
+
